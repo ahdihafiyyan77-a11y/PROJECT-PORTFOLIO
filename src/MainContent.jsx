@@ -465,9 +465,17 @@ function MainContent({ page, setPage }) {
 
             <p>
               {language === "id"
-                ? "Hobi dapat membantu menyegarkan pikiran setelah menjalani aktivitas sehari-hari."
-                : "Hobbies can help refresh the mind after daily activities."
-              }
+                ? `Saat ini saya masih bersekolah di SMK dan sedang menjalani PKL sebagai siswa kelas 2. Kegiatan PKL membuat saya belajar banyak hal baru tentang dunia kerja. Setiap hari saya harus datang tepat waktu, menyelesaikan tugas, dan menyesuaikan diri dengan lingkungan kerja. Walaupun menyenangkan dan menambah pengalaman, terkadang kegiatan tersebut juga membuat pikiran lelah.
+Untuk menyegarkan pikiran setelah menjalani aktivitas PKL, saya memiliki hobi menonton pertandingan sepak bola. Menonton bola menjadi hiburan sederhana yang membuat suasana hati lebih baik. Ketika melihat pertandingan tim favorit, saya merasa lebih santai dan dapat melupakan rasa penat untuk sementara waktu.
+Menurut saya, sepak bola bukan hanya sekadar olahraga, tetapi juga hiburan yang penuh semangat dan kerja sama. Dari pertandingan bola, saya belajar tentang disiplin, kerja keras, dan pentingnya kekompakan dalam sebuah tim. Hal tersebut juga bisa diterapkan dalam kehidupan sehari-hari maupun saat menjalani PKL.
+Selain itu, menonton bola membuat saya lebih bersemangat menjalani aktivitas berikutnya. Setelah pikiran terasa segar, saya menjadi lebih fokus dan siap menghadapi tugas-tugas di sekolah maupun tempat PKL.
+Setiap orang tentu memiliki cara berbeda untuk menghilangkan rasa lelah. Ada yang bermain game, mendengarkan musik, atau berjalan-jalan. Sedangkan bagi saya, menonton pertandingan sepak bola adalah cara yang paling menyenangkan untuk menyegarkan pikiran di tengah kesibukan sekolah dan PKL.`
+                : `I'm currently attending vocational high school and undergoing an internship (PKL) as a second-year student. The internship has taught me many new things about the working world.
+Every day I have to arrive on time, complete assignments, and adapt to the work environment. While it is enjoyable and gives me valuable experience, it can sometimes be mentally tiring.
+To refresh my mind after internship activities, I enjoy watching football matches. Watching football is a simple hobby that improves my mood. When I watch my favorite team play, I feel more relaxed and can temporarily forget my fatigue.
+I believe football is not only a sport but also entertainment full of passion and teamwork. From football matches, I learn discipline, hard work, and the importance of cooperation. These lessons can also be applied in daily life and during internships.
+In addition, watching football makes me more motivated for the next activities. After refreshing my mind, I become more focused and ready to face assignments at school and at the internship place.
+Everyone has different ways to relieve tiredness. Some people play games, listen to music, or take walks. For me, watching football matches is the most enjoyable way to refresh my mind amid school and internship activities.`}
             </p>
 
           </div>
@@ -547,8 +555,18 @@ function MainContent({ page, setPage }) {
 
             <p>
               {language === "id"
-                ? "Motivasi membuat saya terus semangat mencapai tujuan."
-                : "Motivation keeps me excited to achieve my goals."}
+                ? `Setiap orang tentu memiliki motivasi dalam hidupnya. Ada yang ingin membanggakan orang tua, meraih cita-cita, atau mendapatkan kehidupan yang lebih baik. Bagi sebagian orang, salah satu motivasi terbesar untuk terus berjuang adalah mencapai financial freedom atau kebebasan finansial.
+Financial freedom bukan berarti hidup mewah atau memiliki segalanya dengan mudah. Financial freedom adalah kondisi ketika seseorang mampu memenuhi kebutuhan hidupnya dengan baik, memiliki penghasilan yang stabil, dan tidak selalu merasa khawatir tentang masalah keuangan. Karena itulah, banyak orang menjadikan hal tersebut sebagai tujuan hidup dan alasan untuk terus berusaha.
+Seseorang yang memiliki motivasi financial freedom biasanya tidak mudah menyerah saat menghadapi kesulitan. Mereka sadar bahwa setiap proses membutuhkan perjuangan dan pengorbanan. Walaupun lelah, gagal, atau mengalami hambatan, mereka tetap mencoba bangkit karena memiliki tujuan yang jelas untuk masa depan.
+Bagi pelajar SMK yang sedang menjalani PKL, motivasi ini juga bisa menjadi penyemangat dalam belajar dan mencari pengalaman. Dengan terus meningkatkan kemampuan, disiplin, dan kerja keras, mereka percaya bahwa semua usaha yang dilakukan sekarang akan membantu mencapai kehidupan yang lebih baik di masa depan.
+Selain itu, motivasi financial freedom membuat seseorang lebih menghargai waktu dan kesempatan. Mereka ingin menggunakan masa muda untuk belajar, berkembang, dan memperbaiki diri agar suatu hari nanti bisa hidup mandiri serta membantu keluarga.
+Pada akhirnya, memiliki motivasi yang kuat sangat penting dalam kehidupan. Financial freedom bukan hanya tentang uang, tetapi juga tentang kebebasan, tanggung jawab, dan masa depan yang lebih baik. Dengan tujuan tersebut, seseorang akan memiliki alasan untuk tetap semangat dan tidak mudah menyerah menghadapi setiap tantangan hidup.`
+                : `Everyone has a motivation in life. Some want to make their parents proud, achieve their dreams, or achieve a better life. For some, one of the greatest motivations to keep striving is achieving financial freedom.
+Financial freedom doesn't mean living in luxury or having everything easily. It's a state where someone can adequately meet their needs, have a stable income, and not constantly worry about money. For this reason, many people make this a life goal and a reason to keep trying.
+Someone motivated by financial freedom typically doesn't give up easily when facing difficulties. They realize that every process requires struggle and sacrifice. Even when tired, fail, or encounter obstacles, they continue to rise because they have a clear goal for the future.
+For vocational high school students undergoing internships, this motivation can also be a driving force in learning and gaining experience. By continuously improving their skills, discipline, and hard work, they believe that all the efforts they make now will help them achieve a better life in the future.
+Furthermore, the motivation of financial freedom makes someone value time and opportunities more. They want to use their youth to learn, grow, and improve themselves so they can one day live independently and help their families.
+Ultimately, having a strong motivation is crucial in life. Financial freedom isn't just about money; it's also about freedom, responsibility, and a brighter future. With this goal, a person will have a reason to stay motivated and not give up easily in the face of life's challenges.`}
             </p>
 
           </div>
@@ -628,8 +646,18 @@ function MainContent({ page, setPage }) {
 
             <p>
               {language === "id"
-                ? "pendidikan adalah kunci untuk mencapai masa depan yang lebih baik."
-                : "Education is the key to achieving a better future"
+                ? `Pendidikan merupakan salah satu hal penting dalam kehidupan manusia. Dengan pendidikan, seseorang dapat memperoleh ilmu pengetahuan, pengalaman, serta kemampuan yang berguna untuk masa depan. Karena itulah, banyak orang percaya bahwa menempuh pendidikan adalah salah satu kunci untuk menuju kesuksesan.
+Seseorang yang memiliki semangat dalam menempuh pendidikan biasanya memiliki tujuan yang jelas dalam hidupnya. Mereka sadar bahwa keberhasilan tidak datang dengan mudah, tetapi harus diraih melalui proses belajar, kerja keras, dan disiplin. Walaupun terkadang merasa lelah menghadapi tugas, ujian, atau kesulitan lainnya, mereka tetap berusaha karena yakin pendidikan dapat membuka banyak peluang di masa depan.
+Bagi pelajar, pendidikan bukan hanya tentang mendapatkan nilai yang bagus, tetapi juga tentang membentuk karakter dan menambah keterampilan. Di sekolah, seseorang belajar untuk bertanggung jawab, bekerja sama, menghargai waktu, dan menyelesaikan masalah. Semua hal tersebut sangat berguna ketika memasuki dunia kerja maupun kehidupan bermasyarakat.
+Selain itu, pendidikan juga membantu seseorang untuk meraih cita-cita yang diinginkan. Dengan ilmu dan keterampilan yang dimiliki, peluang untuk mendapatkan pekerjaan yang baik akan semakin besar. Karena itu, banyak orang rela berjuang dan tetap semangat dalam belajar demi mencapai masa depan yang lebih baik.
+Bagi siswa SMK yang sedang menjalani PKL, pendidikan dan pengalaman kerja menjadi kombinasi yang sangat penting. Mereka tidak hanya belajar teori di sekolah, tetapi juga mendapatkan pengalaman langsung di dunia kerja. Hal ini dapat membantu meningkatkan kemampuan dan mempersiapkan diri menghadapi tantangan di masa depan.
+Pada akhirnya, kesuksesan tidak bisa diraih secara instan. Dibutuhkan usaha, kesabaran, dan kemauan untuk terus belajar. Dengan menempuh pendidikan dan memanfaatkan setiap kesempatan untuk berkembang, seseorang akan semakin dekat dengan impian dan kesuksesan yang ingin dicapai.`
+                : `Education is one of the most important aspects of human life. Through education, a person can gain knowledge, experience, and skills that will be useful for the future. Therefore, many people believe that pursuing an education is one of the keys to success.
+Someone who is passionate about their education usually has a clear purpose in life. They realize that success doesn't come easily but must be achieved through learning, hard work, and discipline. Even though they sometimes feel tired when facing assignments, exams, or other difficulties, they persist because they believe that education can open up many opportunities in the future.
+For students, education isn't just about getting good grades; it's also about developing character and developing skills. At school, a person learns responsibility, cooperation, time management, and problem-solving. All of these skills are invaluable when entering the workforce and social life.
+Furthermore, education also helps a person achieve their dreams. With the knowledge and skills they possess, their chances of finding a good job increase. Therefore, many people are willing to struggle and remain enthusiastic about learning to achieve a better future.
+For vocational high school students undergoing internships, education and work experience are a crucial combination. They not only learn theory at school but also gain hands-on experience in the workplace. This can help improve their skills and prepare them for future challenges.
+Ultimately, success doesn't come instantly. It requires effort, patience, and a willingness to continue learning. By pursuing education and taking advantage of every opportunity to develop, one will get closer to achieving their dreams and the success they desire.`
               }
             </p>
 
