@@ -35,9 +35,28 @@ function MainContent({ page, setPage }) {
 
   if (page === "home") {
     return (
-      <div className="w-full flex justify-center flex-grow">
+      <div className="relative min-h-screen overflow-hidden">
 
-        <main className="w-full max-w-6xl px-6 py-12 text-center flex-grow flex items-center justify-center bg-white dark:bg-gray-900">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute w-full h-full object-cover">
+
+          <source
+            src="/pidio.mp4"
+            type="video/mp4">
+          </source>
+
+        </video>
+
+        <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
+
+        <div className="relative z-10 w-full flex justify-center flex-grow">
+
+
+        <main className="w-full max-w-6xl px-6 py-12 text-center flex-grow flex items-center justify-center">
 
           <section>
 
@@ -245,13 +264,32 @@ function MainContent({ page, setPage }) {
 
       </div>
 
+      </div>
 
     )
   }
 
   if (page === "about") {
     return (
-      <div className="flex justify-center px-6 py-12 bg-white dark:bg-gray-900 min-h-screen">
+      <div className="relative min-h-screen overflow-hidden">
+
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute w-full h-full object-cover">
+
+          <source
+            src="/pidio.mp4"
+            type="video/mp4">
+          </source>
+
+        </video>
+
+        <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
+
+        <div className="relative z-10 w-full flex justify-center flex-grow">
 
         <section className="max-w-3xl text-center flex flex-col">
 
@@ -286,12 +324,33 @@ function MainContent({ page, setPage }) {
         </section>
 
       </div>
+
+      </div>
     )
   }
 
   if (page === "project") {
     return (
-      <div className="flex justify-center px-6 py-12 bg-white dark:bg-gray-900 min-h-screen">
+      <div className="relative min-h-screen overflow-hidden">
+
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute w-full h-full object-cover">
+
+          <source
+            src="/pidio.mp4"
+            type="video/mp4">
+          </source>
+
+        </video>
+
+        <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
+
+        <div className="relative z-10 w-full flex justify-center flex-grow">
+
 
         <section className="w-full max-w-5xl">
 
@@ -337,12 +396,32 @@ function MainContent({ page, setPage }) {
         </section>
 
       </div>
+
+      </div>
     )
   }
 
   if (page === "contact") {
     return (
-      <div className="flex justify-center px-6 py-12 bg-white dark:bg-gray-900 min-h-screen">
+      <div className="relative min-h-screen overflow-hidden">
+
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute w-full h-full object-cover">
+
+          <source
+            src="/pidio.mp4"
+            type="video/mp4">
+          </source>
+
+        </video>
+
+        <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
+
+        <div className="relative z-10 w-full flex justify-center flex-grow">
 
         <section className="w-full max-w-3xl">
 
@@ -392,13 +471,32 @@ function MainContent({ page, setPage }) {
 
       </div>
 
+      </div>
     )
   }
 
 
   if (page === "Article1") {
     return (
-      <div className="bg-white dark:bg-gray-900 min-h-screen px-6 py-10 flex justify-center">
+      <div className="relative min-h-screen overflow-hidden">
+
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute w-full h-full object-cover">
+
+          <source
+            src="/pidio.mp4"
+            type="video/mp4">
+          </source>
+
+        </video>
+
+        <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
+
+        <div className="relative z-10 w-full flex justify-center flex-grow">
 
         <article className="w-full max-w-5xl">
 
@@ -483,12 +581,33 @@ Everyone has different ways to relieve tiredness. Some people play games, listen
         </article>
 
       </div>
+
+      </div>
     )
   }
 
   if (page === "Article2") {
     return (
-      <div className="bg-white dark:bg-gray-900 min-h-screen px-6 py-10 flex justify-center">
+      <div className="relative min-h-screen overflow-hidden">
+
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute w-full h-full object-cover">
+
+          <source
+            src="/pidio.mp4"
+            type="video/mp4">
+          </source>
+
+        </video>
+
+        <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
+
+        <div className="relative z-10 w-full flex justify-center flex-grow">
+
 
         <article className="w-full max-w-5xl">
 
@@ -574,12 +693,32 @@ Ultimately, having a strong motivation is crucial in life. Financial freedom isn
         </article>
 
       </div>
+
+      </div>
     )
   }
 
   if (page === "Article3") {
     return (
-      <div className="bg-white dark:bg-gray-900 min-h-screen px-6 py-10 flex justify-center">
+      <div className="relative min-h-screen overflow-hidden">
+
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute w-full h-full object-cover">
+
+          <source
+            src="/pidio.mp4"
+            type="video/mp4">
+          </source>
+
+        </video>
+
+        <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
+
+        <div className="relative z-10 w-full flex justify-center flex-grow">
 
         <article className="w-full max-w-5xl">
 
@@ -664,6 +803,8 @@ Ultimately, success doesn't come instantly. It requires effort, patience, and a 
           </div>
 
         </article>
+
+      </div>
 
       </div>
     )
