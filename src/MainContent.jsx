@@ -289,7 +289,7 @@ function MainContent({ page, setPage }) {
 
         <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
 
-        <div className="relative z-10 w-full flex justify-center flex-grow">
+        <div className="relative z-10 w-full max-w-7xl mx-auto flex justify-center px-6 md:px-10 py-16">
 
           <section className="max-w-3xl text-center flex flex-col">
 
@@ -349,16 +349,16 @@ function MainContent({ page, setPage }) {
 
         <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
 
-        <div className="relative z-10 w-full flex justify-center flex-grow">
+        <div className="relative z-10 w-full px-6 md:px-12 lg:px-20 py-16">
 
 
-          <section className="w-full max-w-5xl">
+          <section className="w-full max-w-7xl mx-auto">
 
             <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-white">My Projects</h1>
 
             <p className="text-gray-500 mt-4 dark:text-gray-300">Here are some projects I have built using React and Tailwind CSS.</p>
 
-            <div className="grid md:grid-cols-2 gap-6 mt-10">
+            <div className="grid md:grid-cols-2 gap-12 mt-14">
 
               <div className="group border rounded-xl p-6 shadow hover:shadow-lg hover:bg-blue-800 transition duration-300 bg-white dark:bg-gray-800">
 
@@ -421,9 +421,9 @@ function MainContent({ page, setPage }) {
 
         <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
 
-        <div className="relative z-10 w-full flex justify-center flex-grow">
+        <div className="relative z-10 w-full px-6 md:px-12 lg:px-20 py-24">
 
-          <section className="w-full max-w-3xl">
+          <section className="w-full max-w-4xl mx-auto pb-20">
 
             <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-white">Contact Me</h1>
 
@@ -439,7 +439,7 @@ function MainContent({ page, setPage }) {
 
             </div>
 
-            <form className="mt-10 space-y-6">
+            <form className="mt-12 space-y-8">
 
               <input
                 type="text"
@@ -496,9 +496,9 @@ function MainContent({ page, setPage }) {
 
         <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
 
-        <div className="relative z-10 w-full flex justify-center flex-grow">
+        <div className="relative z-10 px-6 md:px-10 pt-28 pb-16 flex justify-center">
 
-          <article className="w-full max-w-5xl">
+          <article className="w-full max-w-6xl mx-auto px-4 md:px-8">
 
             <span className="bg-green-600 text-white px-4 py-1 rounded text-sm font-semibold">
               My Hobby
@@ -536,7 +536,7 @@ function MainContent({ page, setPage }) {
               className="w-full rounded-2xl mt-10 shadow-lg">
             </img>
 
-            <div className="mt-8 flex gap-4 flex-wrap">
+            <div className="mt-10 flex gap-5 flex-wrap">
 
               <button
                 onClick={() => setFontSize(fontSize + 2)}
@@ -558,7 +558,7 @@ function MainContent({ page, setPage }) {
             </div>
 
             <div
-              className="mt-10 leading-9 text-gray-700 dark:text-gray-300 space-y-6 text-left"
+              className="mt-12 leading-10 text-gray-700 dark:text-gray-300 space-y-6 text-left"
               style={{ fontSize: `${fontSize}px` }}>
 
               <p>
@@ -606,10 +606,10 @@ Everyone has different ways to relieve tiredness. Some people play games, listen
 
         <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
 
-        <div className="relative z-10 w-full flex justify-center flex-grow">
+        <div className="relative z-10 px-6 md:px-10 pt-28 pb-16 flex justify-center">
 
 
-          <article className="w-full max-w-5xl">
+          <article className="w-full max-w-6xl mx-auto px-4 md:px-8">
 
             <span className="bg-blue-600 text-white px-4 py-1 rounded text-sm font-semibold">
               My Motivation
@@ -647,7 +647,7 @@ Everyone has different ways to relieve tiredness. Some people play games, listen
               className="w-full rounded-2xl mt-10 shadow-lg">
             </img>
 
-            <div className="mt-8 flex gap-4 flex-wrap">
+            <div className="mt-10 flex gap-5 flex-wrap">
 
               <button
                 onClick={() => setFontSize(fontSize + 2)}
@@ -669,7 +669,7 @@ Everyone has different ways to relieve tiredness. Some people play games, listen
             </div>
 
             <div
-              className="mt-10 leading-9 text-gray-700 dark:text-gray-300 space-y-6 text-left"
+              className="mt-12 leading-10 text-gray-700 dark:text-gray-300 space-y-6 text-left"
               style={{ fontSize: `${fontSize}px` }}>
 
               <p>
@@ -718,9 +718,9 @@ Ultimately, having a strong motivation is crucial in life. Financial freedom isn
 
         <div className="absolute inset-0 bg-white/60 dark:bg-black/70 backdrop-blur-sm"></div>
 
-        <div className="relative z-10 w-full flex justify-center flex-grow">
+        <div className="relative z-10 px-6 md:px-10 pt-28 pb-16 flex justify-center">
 
-          <article className="w-full max-w-5xl">
+          <article className="w-full max-w-6xl mx-auto px-4 md:px-8">
 
             <span className="bg-red-600 text-white px-4 py-1 rounded text-sm font-semibold">
               My Education
@@ -758,7 +758,7 @@ Ultimately, having a strong motivation is crucial in life. Financial freedom isn
               className="w-full rounded-2xl mt-10 shadow-lg">
             </img>
 
-            <div className="mt-8 flex gap-4 flex-wrap">
+            <div className="mt-10 flex gap-5 flex-wrap">
 
               <button
                 onClick={() => setFontSize(fontSize + 2)}
@@ -780,7 +780,7 @@ Ultimately, having a strong motivation is crucial in life. Financial freedom isn
             </div>
 
             <div
-              className="mt-10 leading-9 text-gray-700 dark:text-gray-300 space-y-6 text-left"
+              className="mt-12 leading-10 text-gray-700 dark:text-gray-300 space-y-6 text-left"
               style={{ fontSize: `${fontSize}px` }}>
 
               <p>
