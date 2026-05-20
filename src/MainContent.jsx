@@ -418,7 +418,7 @@ function MainContent({ page, setPage }) {
               className="w-14 h-14 rounded-full object-cover">
             </img>
 
-            <div>
+            <div className="text-left">
 
               <p className="font-semibold text-gray-800 dark:text-white">
                 Ahdi Hafiyyan
@@ -460,7 +460,7 @@ function MainContent({ page, setPage }) {
           </div>
 
           <div
-            className="mt-10 leading-9 text-gray-700 dark:text-gray-300 space-y-6"
+            className="mt-10 leading-9 text-gray-700 dark:text-gray-300 space-y-6 text-left"
             style={{ fontSize: `${fontSize}px` }}>
 
             <p>
@@ -508,7 +508,7 @@ Everyone has different ways to relieve tiredness. Some people play games, listen
               className="w-14 h-14 rounded-full object-cover">
             </img>
 
-            <div>
+            <div className="text-left">
 
               <p className="font-semibold text-gray-800 dark:text-white">
                 Ahdi Hafiyyan
@@ -550,7 +550,7 @@ Everyone has different ways to relieve tiredness. Some people play games, listen
           </div>
 
           <div
-            className="mt-10 leading-9 text-gray-700 dark:text-gray-300 space-y-6"
+            className="mt-10 leading-9 text-gray-700 dark:text-gray-300 space-y-6 text-left"
             style={{ fontSize: `${fontSize}px` }}>
 
             <p>
@@ -599,7 +599,7 @@ Ultimately, having a strong motivation is crucial in life. Financial freedom isn
               className="w-14 h-14 rounded-full object-cover">
             </img>
 
-            <div>
+            <div className="text-left">
 
               <p className="font-semibold text-gray-800 dark:text-white">
                 Ahdi Hafiyyan
@@ -641,7 +641,7 @@ Ultimately, having a strong motivation is crucial in life. Financial freedom isn
           </div>
 
           <div
-            className="mt-10 leading-9 text-gray-700 dark:text-gray-300 space-y-6"
+            className="mt-10 leading-9 text-gray-700 dark:text-gray-300 space-y-6 text-left"
             style={{ fontSize: `${fontSize}px` }}>
 
             <p>
